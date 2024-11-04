@@ -161,3 +161,6 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 
         modified:   README.md
         modified:   config/settings.py
+
+
+## 5. PROYEK DJANGO VS APLIKASI DJANGO
