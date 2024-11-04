@@ -204,3 +204,8 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
         modified:   README.md
         modified:   app/main/views.py
         modified:   config/urls.py
+
+#### 4. Membuat file requirements.txt
+
+        modified:   README.md
+        new file:   requirements.txt
