@@ -146,3 +146,7 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 
         modified:   README.md
         modified:   config/settings.py
+
+#### 3. Menginstal mysqlclient
+
+	(venv312512) λ pip install mysqlclient
