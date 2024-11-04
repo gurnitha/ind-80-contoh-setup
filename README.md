@@ -167,3 +167,25 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 
 
 ## 6. APLIKASI DJANGO
+
+#### 1. Membuat aplikasi Django pertama
+
+        modified:   README.md
+        new file:   app/main/__init__.py
+        new file:   app/main/admin.py
+        new file:   app/main/apps.py
+        new file:   app/main/migrations/__init__.py
+        new file:   app/main/models.py
+        new file:   app/main/tests.py
+        new file:   app/main/views.py
+        
+	app
+	└── main
+	    ├── __init__.py
+	    ├── admin.py
+	    ├── apps.py
+	    ├── migrations
+	    │   └── __init__.py
+	    ├── models.py
+	    ├── tests.py
+	    └── views.py
