@@ -51,3 +51,6 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
         renamed:    config/config/urls.py -> src/config/urls.py
         renamed:    config/config/wsgi.py -> src/config/wsgi.py
         renamed:    config/manage.py -> src/manage.py
+
+
+## 3. MENSETING PROYEK
