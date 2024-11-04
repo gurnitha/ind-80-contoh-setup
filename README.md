@@ -99,3 +99,6 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 
 	(venv312512) λ python manage.py check
 	System check identified no issues (0 silenced).
+
+
+## 4. DATABASE
