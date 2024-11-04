@@ -129,6 +129,7 @@ USE_TZ = True
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # ===================Skrip baru====================
+
 # Menseting bahasa
 LANGUAGE_CODE = 'id'
 # Menseting waktu
@@ -138,4 +139,10 @@ TIME_ZONE = 'Asia/Jakarta'
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [STATIC_DIR, ]
 STATIC_URL = 'static/'
+
+# Menseting absolute path untuk file media
+MEDIA_DIR = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = MEDIA_DIR
+MEDIA_URL = '/media/'
+
 # ===================Skrip baru==================== 
