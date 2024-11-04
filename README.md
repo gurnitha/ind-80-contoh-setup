@@ -198,3 +198,9 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 
 	(venv312512) λ python manage.py check
 	System check identified no issues (0 silenced).
+
+#### 3. Halo Dunia!
+
+        modified:   README.md
+        modified:   app/main/views.py
+        modified:   config/urls.py
