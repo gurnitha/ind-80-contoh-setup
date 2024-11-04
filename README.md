@@ -130,3 +130,19 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 	+---------------------------------------------------------+
 	| ind_80_dj5_torangbisaapa                                |
 	+---------------------------------------------------------+
+
+#### 2. Menghubungan proyek dengan database
+
+	DATABASES = {
+	    'default': {
+	    'ENGINE': 'django.db.backends.mysql',
+	    'NAME': 'ind_80_dj5_torangbisaapa',
+	    'USER': 'root',
+	    'PASSWORD': '',
+	    'HOST':'localhost',
+	    'PORT':'3306',
+	    }
+	}
+
+        modified:   README.md
+        modified:   config/settings.py
