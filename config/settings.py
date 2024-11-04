@@ -15,6 +15,13 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Start langkah 1: Melindungi file penting
+import environ
+env = environ.Env()
+environ.Env.read_env()
+environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+# End langkah 1: Melindungi file penting
+
 # print(__file__)
 # print(os.path.dirname(__file__))
 # print(os.path.dirname(os.path.dirname(__file__)))
@@ -26,7 +33,11 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-q=%ig8oy%__c%%$l9j9gt-$q!dy#l0@3a2=7rkl3btpa_8n)a='
+# SECRET_KEY = 'django-insecure-q=%ig8oy%__c%%$l9j9gt-$q!dy#l0@3a2=7rkl3btpa_8n)a='
+
+# Start langkah 2: Melindungi file penting
+SECRET_KEY = env('SECRET_KEY')
+# End langkah 2: Melindungi file penting
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -145,15 +156,29 @@ MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
 
+# # Menghubungkan proyek dengan database
+# DATABASES = {
+#     'default': {
+#     'ENGINE': 'django.db.backends.mysql',
+#     'NAME': 'ind_80_dj5_torangbisaapa',
+#     'USER': 'root',
+#     'PASSWORD': '',
+#     'HOST':'localhost',
+#     'PORT':'3306',
+#     }
+# }
+
 # Menghubungkan proyek dengan database
+# Start langkah 3: Melindungi file penting
 DATABASES = {
     'default': {
-    'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'ind_80_dj5_torangbisaapa',
-    'USER': 'root',
-    'PASSWORD': '',
-    'HOST':'localhost',
-    'PORT':'3306',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': env('DB_NAME'),
+        'USER': env('DB_USER'),
+        'PASSWORD': env('DB_PASSWORD'),
+        'HOST': env('DB_HOST'),
+        'PORT': env('DB_PORT'),
     }
 }
+# End langkah 3: Melindungi file penting
 # ===================Skrip baru==================== 

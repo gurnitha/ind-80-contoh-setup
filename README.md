@@ -150,3 +150,9 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 #### 3. Menginstal mysqlclient
 
 	(venv312512) λ pip install mysqlclient
+
+#### 4. Melindungi File penting
+
+        new file:   .env.example
+        modified:   README.md
+        modified:   config/settings.py
