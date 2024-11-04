@@ -15,9 +15,9 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-print(__file__)
-print(os.path.dirname(__file__))
-print(os.path.dirname(os.path.dirname(__file__)))
+# print(__file__)
+# print(os.path.dirname(__file__))
+# print(os.path.dirname(os.path.dirname(__file__)))
 
 # Menseting absolut path untuk templates
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
@@ -121,7 +121,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+# STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
@@ -133,4 +133,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LANGUAGE_CODE = 'id'
 # Menseting waktu
 TIME_ZONE = 'Asia/Jakarta'
+
+# Menseting absolute path untuk file statis
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = [STATIC_DIR, ]
+STATIC_URL = 'static/'
 # ===================Skrip baru==================== 

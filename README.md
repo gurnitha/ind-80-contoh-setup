@@ -72,3 +72,10 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 
         modified:   README.md
         modified:   config/settings.py
+
+#### 3. Menseting path untuk file statis
+
+	(venv312512) λ mkdir static
+
+	(venv312512) λ python manage.py check
+	System check identified no issues (0 silenced).
