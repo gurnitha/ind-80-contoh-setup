@@ -41,3 +41,13 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 	        new file:   config/config/urls.py
 	        new file:   config/config/wsgi.py
 	        new file:   config/manage.py
+
+#### 2. Memodifikasi struktur proyek Django
+
+        modified:   README.md
+        renamed:    config/config/__init__.py -> src/config/__init__.py
+        renamed:    config/config/asgi.py -> src/config/asgi.py
+        renamed:    config/config/settings.py -> src/config/settings.py
+        renamed:    config/config/urls.py -> src/config/urls.py
+        renamed:    config/config/wsgi.py -> src/config/wsgi.py
+        renamed:    config/manage.py -> src/manage.py
