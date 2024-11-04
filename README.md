@@ -103,7 +103,7 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 
 ## 4. DATABASE
 
-#### 1. Membuat MySQL Database
+#### 1. Membuat MySQL database
 
 	E:\_WORKSPACE\laragon\www
 	λ mysql -u root
@@ -154,5 +154,10 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 #### 4. Melindungi File penting
 
         new file:   .env.example
+        modified:   README.md
+        modified:   config/settings.py
+
+#### 5. Mengganti database dengan PostgreSQL database
+
         modified:   README.md
         modified:   config/settings.py
