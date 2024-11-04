@@ -164,3 +164,6 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 
 
 ## 5. PROYEK DJANGO VS APLIKASI DJANGO
+
+
+## 6. APLIKASI DJANGO
