@@ -59,3 +59,16 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 
         modified:   README.md
         modified:   src/config/settings.py
+
+#### 2. Menseting path untuk templates
+
+	(venv312512) λ mkdir templates
+
+	(venv312512) λ python manage.py check
+	C:\Users\ING\Desktop\workspace\ind-80-contoh-setup\src\config\settings.py
+	C:\Users\ING\Desktop\workspace\ind-80-contoh-setup\src\config
+	C:\Users\ING\Desktop\workspace\ind-80-contoh-setup\src
+	System check identified no issues (0 silenced).
+
+        modified:   README.md
+        modified:   config/settings.py
