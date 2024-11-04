@@ -22,3 +22,6 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 #### 7. Memverifikasi versi Django yang telah diinstal
 
 #### 8. Meningkatkan versi pip
+
+
+## 2. PROYEK DJANGO
