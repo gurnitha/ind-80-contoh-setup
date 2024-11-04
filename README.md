@@ -54,3 +54,8 @@ Github: https://github.com/gurnitha/ind-80-contoh-setup
 
 
 ## 3. MENSETING PROYEK
+
+#### 1. Menseting bahasa dan waktu
+
+        modified:   README.md
+        modified:   src/config/settings.py
